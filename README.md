@@ -1,4 +1,6 @@
-# LIST Checkbox Column using Style and WingDing Font
+# LIST Checkbox Column using Style and WingDings Font
+
+To discuss this please post on the [ClaionHub thread How to use Styles in a LIST - PROPLIST:Style - PROPSTYLE](https://clarionhub.com/t/how-to-use-styles-in-a-list-proplist-style-propstyle/3776?u=carlbarnes)
 
 I had a Class that had a LIST control in which I wanted a Checkbox column. Using an Icon meant I would have to also include an .ICO file or rely on the shipping images. What I came up with was to use a Style that changed the font to WingDings `?List{PROPSTYLE:FontName,1}='Wingdings 2'`.
 
@@ -12,7 +14,7 @@ The two "2 Q Styles" button are LIST's with FORMAT(' Y ') Style code n the colum
 
 ![mainw](readme_2.png)
 
-Styles allow a Font Size so in the below window you see the Checkbox square is very large. This would help for a touch interface or simply to attack attention. Because this is a font it scales perfectly with no pixelating unlike a bitmap icon.  
+Styles allow a Font Size so in the below window you see the Checkbox square is very large. This would help for a touch interface or simply to attract attention. Because this is a font it scales perfectly with no pixelating unlike a bitmap icon.  
 
 ![main3](readme_3.png)
 
